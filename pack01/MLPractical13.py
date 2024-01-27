@@ -30,6 +30,8 @@ print( "arr.dtype= "  , arr.dtype  )
 
 print( "arr.nonzero() = ", arr.nonzero() )
 
+print("\n-------------------\n")
+
 # Example-09
 
 import numpy as np
@@ -50,6 +52,7 @@ print(np.any([0, 0, 0, 0., 0]))  # False
 
 print(np.any([0, 0, 0, 0., 0, -1]))  # True
 
+print("\n-------------------\n")
 # Example-10
 
 
@@ -77,12 +80,14 @@ print("n1 - n2 = ", n1 - n2)
 
 n3 = np.array([4, 5, 6, 7])
 
-#print(n1 + n3)
+# print(n1 + n3)
 
 # NOTE:
 
 # Shape must be the same for array operation broadcasting
 
+
+print("\n-------------------\n")
 
 # Example-11
 
@@ -140,6 +145,8 @@ print(n4[n4.argsort()])  # Original values in n4 will not change
 
 print("n4 = ", n4)
 
+print("\n-------------------\n")
+
 # Example-12
 
 import numpy as np
@@ -155,7 +162,4 @@ print("na.transpose() = \n", na.transpose())
 print("na = \n", na)
 
 print("np.eye = \n", np.eye(6))  # To create square matrix
-
-
-
 
