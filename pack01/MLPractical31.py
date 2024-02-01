@@ -22,6 +22,19 @@ print("\n\n")
 
 print(df.groupby('E').size())
 
+print("\n\nHeadings in Dataframe : ", df.columns)  # [A, B, C, D, E]
+
+#  0, 1, 2, 3, 4
+
+print("\n\nRow Headings in Dataframe : ", df.index)
+
+print("\n\nValues in Dataframe : \n", df.values)
+
+print("\n", df.columns[2:5])  # [C, D, E]
+
+
+
+
 
 
 
