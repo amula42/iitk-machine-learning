@@ -98,11 +98,3 @@ print("\n\ndf2.index[2:4] = ", df2.index[2:4])
 
 df.to_excel('outputData.xlsx', sheet_name='Sheet1')
 
-
-
-
-
-
-
-
-
